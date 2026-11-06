@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="SenacStore.Application/SenacStore.Application.csproj" />
+  <Project Path="SenacStore.Domain/SenacStore.Domain.csproj" />
   <Project Path="SenacStore.Infrastructure/SenacStore.Infrastructure.csproj" Id="47139fba-6019-4d68-af12-d65e57b01342" />
-  <Project Path="SenacStore.UI/SenacStore.Domain.csproj" />
 </Solution>
