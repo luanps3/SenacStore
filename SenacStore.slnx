@@ -2,4 +2,5 @@
   <Project Path="SenacStore.Application/SenacStore.Application.csproj" />
   <Project Path="SenacStore.Domain/SenacStore.Domain.csproj" />
   <Project Path="SenacStore.Infrastructure/SenacStore.Infrastructure.csproj" Id="47139fba-6019-4d68-af12-d65e57b01342" />
+  <Project Path="SenacStore.UI/SenacStore.UI.csproj" Id="cc84807f-3c91-49b1-86d1-e2098325a0f7" />
 </Solution>
