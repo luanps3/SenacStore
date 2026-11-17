@@ -6,5 +6,10 @@ namespace SenacStore.UI
         {
             InitializeComponent();
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
