@@ -27,4 +27,12 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="InterfacesUI\" />
+    <Folder Include="Navigation\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
