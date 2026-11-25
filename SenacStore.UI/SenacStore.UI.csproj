@@ -28,11 +28,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Handlers\" />
     <Folder Include="Helpers\" />
-    <Folder Include="InterfacesUI\" />
-    <Folder Include="Navigation\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SenacStore.Application\SenacStore.Application.csproj" />
   </ItemGroup>
 
 </Project>

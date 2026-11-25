@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SenacStore.Application.Interfaces;
+using SenacStore.UI.Navigation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +12,16 @@ namespace SenacStore.UI.UserControls
 {
     public partial class ucTipoUsuario : UserControl
     {
-        public ucTipoUsuario()
+        private readonly ICrudNavigator _nav;
+        private readonly ITipoUsuarioService _service;
+        private readonly Guid? _id;
+
+        public ucTipoUsuario(ICrudNavigator nav, ITipoUsuarioService service, Guid? id = null)
         {
             InitializeComponent();
+            _nav = nav;
+            _service = service;
+            _id = id;
         }
     }
 }
