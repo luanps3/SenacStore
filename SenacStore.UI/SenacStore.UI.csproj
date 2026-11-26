@@ -34,6 +34,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SenacStore.Application\SenacStore.Application.csproj" />
+    <ProjectReference Include="..\SenacStore.Infrastructure\SenacStore.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,7 @@ namespace SenacStore.UI
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void lblCadastro_Click(object sender, EventArgs e)

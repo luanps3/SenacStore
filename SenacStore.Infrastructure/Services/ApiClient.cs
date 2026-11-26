@@ -133,7 +133,7 @@ namespace SenacStore.Infrastructure.Services
         {
             try
             {
-                var erro = JsonSerializer.Deserialize<ErroDto>(corpo, OpcoesJson);
+                var erro = JsonSerializer.Deserialize<ErrorDto>(corpo, OpcoesJson);
                 if (!string.IsNullOrWhiteSpace(erro?.Mensagem))
                     return erro.Mensagem;
             }

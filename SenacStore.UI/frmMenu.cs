@@ -49,7 +49,7 @@ namespace SenacStore.UI
 
         private void btnTipoUsuario_Click(object sender, EventArgs e)
         {
-            Abrir(new ucTipoUsuario());
+            Abrir(new ucCrudPadrao());
         }
     }
 }
